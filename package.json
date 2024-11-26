@@ -8,8 +8,7 @@
     "start": "node index.js",
     "test": "standard && jest",
     "test-dev": "TEST_DEV=true jest --watch",
-    "debug": "nodemon --inspect index.js",
-    "postinstall": "cd functions/staticman && yarn --production"
+    "debug": "nodemon --inspect index.js"
   },
   "engines": {
     "node": ">=8.11.3"
